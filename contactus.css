@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(213, 213, 213);
+}
+header {
+    background-color: rgb(75, 74, 74);
+    color: white;
+    height: 105px;
+    text-align: center;
+    padding-top:40px;
+}
+a {
+    color: white;
+    margin-left: 20PX;
+    padding-bottom: 30px;
+}
+#home{
+    padding-top: 30px;
+    height: 20px;
+}
+.home,.phone,.fax,.email{
+    display: flex;
+}
+
+#phone{
+        padding-top: 25px;
+        height: 20px;
+}
+.h1,.h2,.h3,.h4{
+    padding-left: 30px;
+}
+#fax{
+    padding-top: 25px;
+        height: 20px;
+}
+#email{
+    padding-top: 25px;
+        height: 20px;
+}
+.contact{
+    display: flex;
+    color: rgb(76, 76, 76);
+}
+.contactinfo{
+    padding-right: 50px;
+    margin-left: 300px;
+}
+.message{
+    width: 600px;
+    line-height: 30px;
+    border-left:3px dotted rgb(204, 200, 200) ;
+    padding: 30px;
+}
+#box1,#box2,#box3{
+    width: 600px;
+    height: 25px;
+}
+#box4{
+    width: 600px;
+    height: 120px;
+}
+#send{
+    width:230px ;
+    height:40px;
+    background-color: rgb(126, 125, 125);
+}
+.footer{
+    display: flex;
+    background-color: #a9aca6;
+    color:#73786f;
+    font-size:small;
+}
+.f1{
+    width: 310px;
+    padding-left: 280px;
+    padding-right: 20px;
+    height: 200px;
+    line-height: 20px;
+}
+.f2,.f3{
+    border-left: dotted;
+    border-color:#b2b4b1 ;
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 20px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+}
